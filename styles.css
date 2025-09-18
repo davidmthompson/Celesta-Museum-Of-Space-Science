@@ -1,0 +1,104 @@
+body{
+    background-image: url(_StartingFiles/Space1.jpg);
+    height: 100vh;
+    background-size: cover; 
+    overflow-x: hidden;
+}
+
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+
+}
+
+header{
+    border-style: solid;
+    margin: 2vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.553);
+    box-shadow:
+    0 0 20px 1px rgb(203, 132, 0),
+    0 4px 24px rgba(0,0,0,0.10);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70vw;
+    align-items: center;
+}
+
+header img{
+    width: 200px;
+}
+
+header a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+header a:hover{
+    color:gray;
+}
+
+header p{
+    color: orange;
+    font-size: x-large;
+}
+
+/* End Of header Code */
+
+/* Main Body */
+
+.pageLogo{
+    height: 50vh;
+    margin-left: 37vw;
+}
+
+.textCenter{
+    text-align: center;
+    color: white;
+}
+button{
+    margin-left: 46vw;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.553);
+    color: white;
+    border-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+table{
+    margin: 8em;
+    margin-bottom: 10em;
+    
+}
+
+table p{
+    color: white;
+}
+
+table h1{
+    color: white;
+}
+table img{
+    height: 50vh;
+}
+
+.gap{
+    width:50px;
+}
+/* End Of main body */
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.553);
+    color: white;
+    
+}
